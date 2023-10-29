@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "nba-shots-datamodeling"
+version = "0.1.0"
+description = ""
+authors = ["escobarana <anaescobar8@gmail.com>"]
+readme = "README.md"
+packages = [{include = "nba_shots_datamodeling"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+psycopg2 = "^2.9.9"
+pandas = "^2.1.2"
+black = "^23.10.1"
+isort = "^5.12.0"
+python-dotenv = "^1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+setuptools = "^68.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

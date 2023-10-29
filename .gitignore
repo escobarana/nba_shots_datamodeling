@@ -1,0 +1,22 @@
+# Ignore system-specific or editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+data/
+
+# Ignore compiled files and directories
+*.pyc
+__pycache__/
+
+# Ignore environment and package files
+venv/
+env/
+node_modules/
+*.env
+*.log
+
+# Ignore generated folders or build output
+dist/
+build/
+*.egg-info/
