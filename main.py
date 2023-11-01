@@ -47,7 +47,7 @@ def main():
     )
     logging.info("Reading James Harden data...")
     shot_data_jh, player_data_jh, team_data_jh = generate_dataframes(
-        path_to_csv_lj, player_id=2, team="BKN", player="James Harden"
+        path_to_csv_lj, player_id=2, team="PHI", player="James Harden"
     )
     logging.info("Reading Stephen Curry data...")
     shot_data_sc, player_data_sc, team_data_sc = generate_dataframes(
