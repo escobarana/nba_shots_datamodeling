@@ -1,4 +1,4 @@
-# NBA Shots Season 22-23 (last update of the data 2023-10-25)
+# NBA Shots Season 22-23 
 
 ## Introduction
 This project shows the data model of the NBA shots dataset for the 2022/2023 season. 
